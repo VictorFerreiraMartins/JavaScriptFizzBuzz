@@ -1,10 +1,9 @@
-// FizzBuzz
+// Exercício 1 - FizzBuzz
 // Divisivel por 3 => 'Fizz',
 // Divisivel por 5 => 'Buzz',
 // Divisivel por 3 e 5 => 'FizzBuzz',
 // Se não for um número => 'Não é um número'
 // Se não for divisível nem por 3 e nem por 5 => Entrada
-
 /*
 let resultado = fizzBuzz(4);
 console.log(resultado)
@@ -20,9 +19,10 @@ function fizzBuzz(entrada){
         return 'Buzz';
     return entrada;
 }
-
 */
 
+// Exercício 2 - Reverse a string
+/*
 let newStr ='';
 
 function reverseAString(str){
@@ -33,3 +33,15 @@ function reverseAString(str){
 }
 
 let resultado = reverseAString('Victor')
+*/
+
+// Converter Celsius para Fahrenheit
+
+function convertToFahrenheit(value){
+    return (value * 1.8) + 32
+}
+
+let result = convertToFahrenheit(0)
+
+console.log(`O valor em Farhrenheit é ${result}°`)
+
