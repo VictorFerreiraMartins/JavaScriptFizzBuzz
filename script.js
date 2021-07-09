@@ -35,7 +35,7 @@ function reverseAString(str){
 let resultado = reverseAString('Victor')
 */
 
-// Converter Celsius para Fahrenheit
+// Exercício 3 - Converter Celsius para Fahrenheit
 
 function convertToFahrenheit(value){
     return (value * 1.8) + 32
