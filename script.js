@@ -5,6 +5,7 @@
 // Se não for um número => 'Não é um número'
 // Se não for divisível nem por 3 e nem por 5 => Entrada
 
+/*
 let resultado = fizzBuzz(4);
 console.log(resultado)
 
@@ -19,3 +20,16 @@ function fizzBuzz(entrada){
         return 'Buzz';
     return entrada;
 }
+
+*/
+
+let newStr ='';
+
+function reverseAString(str){
+    for (let i = str.length - 1; i >=0; i--){
+    newStr += str[i];
+    console.log(newStr);
+    }
+}
+
+let resultado = reverseAString('Victor')
